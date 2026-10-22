@@ -1,0 +1,42 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.log
+
+# Generated experiment output
+logs/
+proofs/
+
+# Hardhat / Node
+blockchain/node_modules/
+blockchain/artifacts/
+blockchain/cache/
+blockchain/coverage/
+blockchain/typechain-types/
+
+# Local secrets and editor files
+*.pem
+*.key
+.DS_Store
+.vscode/
+.idea/
+
+# Local backups
+backup-before-merkle-fix/
+*.bak
+
+# Temporary test output
+.pytest_cache/
+
+# All backup files, including files with backup suffixes
+*.bak
+*.backup
+*.pre-*-backup
+*.pre-*.bak
+backup-before-merkle-fix/
