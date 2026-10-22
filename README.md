@@ -1,6 +1,6 @@
 # ChainSense
 
-**Blockchain-Anchored Crowd Sensing (UROP)**  
+**Blockchain-Anchored Crowd Sensing**  
 *FastAPI · Solidity · Hardhat · Python · Merkle Trees*
 
 ChainSense is a hybrid off-chain/on-chain prototype for mobile crowd sensing. Sensing records are handled off-chain by a FastAPI aggregator, while compact batch commitments are anchored to an Ethereum-compatible smart contract. Merkle batching enables verification that an individual record belongs to a committed batch without placing raw sensing data on-chain.
