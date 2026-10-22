@@ -85,14 +85,6 @@ Use Python and Node.js/npm versions compatible with the project's dependency fil
 
 Check the scripts and configuration in this repository for the exact working directory and entry-point details.
 
-## Current scope and limitations
-
-- Sensor inputs are simulated; this is a prototype, not a production mobile sensing deployment.
-- Blockchain measurements reported here use a local Hardhat network, not public-chain gas fees.
-- The prototype uses a single aggregator and does not establish truthfulness of sensor inputs.
-- Adaptive batching is a design direction, not a claim that live adaptive batch sizing is fully integrated.
-- Replay protection, signing-key management, privacy, and production threat handling require further end-to-end validation.
-
 ## License
 
 See [LICENSE](LICENSE).
